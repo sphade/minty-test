@@ -5,7 +5,7 @@ import logo from "../assets/Icons/logo.svg";
 
 const Header = () => {
   return (
-      <header className="flex fixed top-0 left-0 w-screen z-10 bg-white px-[80px] py-[7px] items-center shadow-md justify-between">
+      <header className="flex fixed top-0 left-0 w-screen z-10 bg-white px-10 py-[7px] items-center shadow-md justify-between">
           <img src={logo} alt="" />
       <Input />
       <ul className="flex items-center gap-10 text-sm capitalize text-primary">
@@ -16,7 +16,7 @@ const Header = () => {
         </li>
         <li className="flex gap-5">
           <p className="flex flex-col">
-            <span>hello</span>
+            <span className="text-right">hello</span>
             <span>adewaleke ojo</span>
           </p>
           <img

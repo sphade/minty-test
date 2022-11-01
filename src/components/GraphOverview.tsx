@@ -12,12 +12,13 @@ const GraphOverview = () => {
         <div></div>
       </div>
       <div className=" grid gap-1 grid-cols-1">
-        
-        <div className=" px-9 py-7 bg-white">
-          <p className="capitalize text-[16px] text-secondary font-bold  ">
+        <div className=" px-6 py-5 bg-white">
+          <p className="capitalize text-[14px] text-secondary font-bold mb-2 ">
             orders
           </p>
-          <div className="rounded-lg h-1 w-full bg-green-700"></div>
+          <div className="rounded-lg h-1 w-full relative bg-[#FDC203]  ">
+            <div className="absolute top-0 left-0 w-[70%] h-1 z-10 bg-[#27AE60] "></div>
+          </div>
           <ul className="[&_li]:font-medium text-sm mt-3 space-y-2">
             <li>
               Pending Orders:
@@ -31,11 +32,14 @@ const GraphOverview = () => {
               Total Orders: <span className="text-blue-400 font-bold">100</span>
             </li>
           </ul>
-        </div>  <div className=" px-9 py-7 bg-white">
-          <p className="capitalize text-[16px] text-secondary font-bold  ">
+        </div>{" "}
+        <div className=" px-6 py-5 bg-white">
+          <p className="capitalize text-[14px] text-secondary font-bold mb-2 ">
             payments
           </p>
-          <div className="rounded-lg h-1 w-full bg-green-700"></div>
+          <div className="rounded-lg h-1 w-full relative bg-[#FDC203]  ">
+            <div className="absolute top-0 left-0 w-[70%] h-1 z-10 bg-[#27AE60] "></div>
+          </div>
           <ul className="[&_li]:font-medium text-sm mt-3 space-y-2">
             <li>
               Pending Orders:
