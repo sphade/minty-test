@@ -7,7 +7,7 @@ import Table from '../components/Table'
 const Home = () => {
   return (
       <div>
-          <div className='flex gap-10  justify-between mb-[30px]'>
+          <div className='flex gap-3  justify-between mb-[30px]'>
               
           <Card/>
           <Card/>
