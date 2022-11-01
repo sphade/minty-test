@@ -1,15 +1,20 @@
-import React from "react";
+import { AreaChart, Area, Tooltip } from "recharts";
+import { data } from "../util/data";
+
+import graph from "../assets/Icons/Gradient.svg";
 
 const GraphOverview = () => {
   return (
-    <div className="w-full h-[326px]   grid grid-cols-3 gap-1">
-      <div className=" col-span-2 px-9 py-7 bg-white">
+    <div className="w-full max-h-[326px] h-full    grid grid-cols-3 gap-1">
+      <div className=" col-span-2 px-9 py-7 flex flex-col bg-white">
         <div>
           <p className="capitalize text-[18px] text-secondary font-bold  ">
             Today: 5, Aug 2018
           </p>
         </div>
-        <div></div>
+        <div className=" h-full">
+          <img src={graph} alt="" className="w-full h-full object-bottom" />
+        </div>
       </div>
       <div className=" grid gap-1 grid-cols-1">
         <div className=" px-6 py-5 bg-white">

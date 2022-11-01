@@ -2,6 +2,7 @@ import React from "react";
 import Input from "./Input";
 import bell from "../assets/Icons/bell.svg";
 import logo from "../assets/Icons/logo.svg";
+import user from "../assets/Icons/user.svg";
 
 const Header = () => {
   return (
@@ -20,7 +21,7 @@ const Header = () => {
             <span>adewaleke ojo</span>
           </p>
           <img
-            src=""
+            src={user}
             alt=""
             className="w-[50px] h-[50px] rounded-full bg-gray-400"
           />
