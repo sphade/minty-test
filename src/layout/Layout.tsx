@@ -9,7 +9,7 @@ const Layout = () => {
       <Header />
           <main className='flex gap-[30px]'>
               <Sidebar />
-              <main className=' flex-1 mt-[97px] border mr-[20px]'>
+              <main className=' flex-1 mt-[97px]  mr-[20px]'>
                   
         <Outlet />
               </main>
