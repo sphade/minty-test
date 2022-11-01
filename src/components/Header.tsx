@@ -1,4 +1,3 @@
-import React from "react";
 import Input from "./Input";
 import bell from "../assets/Icons/bell.svg";
 import logo from "../assets/Icons/logo.svg";

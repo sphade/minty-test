@@ -1,5 +1,4 @@
-import { AreaChart, Area, Tooltip } from "recharts";
-import { data } from "../util/data";
+
 
 import graph from "../assets/Icons/Gradient.svg";
 
