@@ -8,7 +8,7 @@ const Header = () => {
       <header className="flex z-10 bg-white px-[80px] py-[7px] items-center shadow justify-between">
           <img src={logo} alt="" />
       <Input />
-      <ul className="flex items-center gap-10">
+      <ul className="flex items-center gap-10 text-sm capitalize text-primary">
         <li>support</li>
         <li>faq</li>
         <li>

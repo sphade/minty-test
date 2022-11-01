@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar";
 
 const Layout = () => {
   return (
-    <div className='bg-[#F7F8FA]'>
+    <div className='bg-[#F7F8FA] font-segoe'>
       <Header />
           <main>
               <Sidebar/>
