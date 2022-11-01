@@ -1,10 +1,19 @@
-import React from 'react'
+import React from "react";
 
 const Card = () => {
   return (
-      <div className='w-[253px] h-[75px] bg-[#EEF8FD] rounded-sm '
-      >Card</div>
-  )
-}
+    <div className=" h-[75px] w-full p-5 bg-[#ffffff] rounded-sm ">
+      <div>
+        <h1 className="text-xs capitalize text-[#787C90]">dialy transaction volume</h1>
+        <h2
+          className="text-[#262626] text-[18px] "
 
-export default Card
+        >
+          1234000
+        </h2>
+      </div>
+    </div>
+  );
+};
+
+export default Card;

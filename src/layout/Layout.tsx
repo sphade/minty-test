@@ -7,9 +7,12 @@ const Layout = () => {
   return (
     <div className='bg-[#F7F8FA] font-segoe'>
       <Header />
-          <main>
-              <Sidebar/>
+          <main className='flex gap-[30px]'>
+              <Sidebar />
+              <main className=' flex-1 mt-[97px] border mr-[20px]'>
+                  
         <Outlet />
+              </main>
       </main>
     </div>
   );

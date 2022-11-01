@@ -5,7 +5,7 @@ import logo from "../assets/Icons/logo.svg";
 
 const Header = () => {
   return (
-      <header className="flex z-10 bg-white px-[80px] py-[7px] items-center shadow justify-between">
+      <header className="flex fixed top-0 left-0 w-screen z-10 bg-white px-[80px] py-[7px] items-center shadow-md justify-between">
           <img src={logo} alt="" />
       <Input />
       <ul className="flex items-center gap-10 text-sm capitalize text-primary">

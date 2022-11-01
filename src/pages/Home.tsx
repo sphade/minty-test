@@ -1,10 +1,19 @@
 import React from 'react'
 import Button from '../components/Button'
+import Card from '../components/Card'
 
 const Home = () => {
   return (
       <div>
-          <Button>this is a button</Button>
+          <div className='flex gap-10  justify-between'>
+              
+          <Card/>
+          <Card/>
+          <Card/>
+          <Card/>
+          </div>
+          
+      
     </div>
   )
 }
